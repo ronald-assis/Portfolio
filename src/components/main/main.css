@@ -1,0 +1,19 @@
+main {
+  width: 66%;
+  margin: auto;
+}
+
+main h1 {
+  color: var(--title-color-bluish-green);
+  font-size: 62px;
+}
+
+main h2 {
+  color: var(--subtitle-color-light);
+  font-size: 42px;
+}
+
+main p {
+  color: var(--white-color);
+  font-size: 18px;
+}

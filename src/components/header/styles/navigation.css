@@ -7,9 +7,11 @@
   margin-right: 26pt;
 }
 
+.navigation .contact-link {
+  margin-right: 0;
+}
+
 .navigation .nav-button a{
-  color: var(--white-color);
-  text-decoration: none;
   display: flex;
   align-items: center;
 }

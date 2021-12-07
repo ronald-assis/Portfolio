@@ -1,0 +1,21 @@
+.infoAbouMe {
+  margin-left: 24px;
+}
+
+.infoAbouMe p {
+  margin: 36px auto 22px;
+  line-height: 150.69%;
+}
+
+.infoAbouMe .link-to-gitHub {
+  display: flex;
+  align-items: center;
+}
+
+.infoAbouMe .link-to-gitHub img {
+  margin-right: 9px;
+}
+
+.infoAbouMe .link-to-gitHub a {
+  text-decoration: none;
+}
