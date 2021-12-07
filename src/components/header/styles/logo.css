@@ -1,0 +1,5 @@
+.logo-image h1 {
+  color: var(--white-color);
+  font-size: 18pt;
+  border-bottom: 5pt solid var(--title-color-bluish-green);
+}
