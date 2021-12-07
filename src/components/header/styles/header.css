@@ -1,0 +1,9 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 48pt;
+  height: 75pt;
+  border-bottom: 1px solid var(--subtitle-color-light);
+  backdrop-filter: blur(15px);
+}
