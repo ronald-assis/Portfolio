@@ -1,0 +1,26 @@
+.info-about-me {
+  margin-left: 24px;
+}
+
+.info-about-me h1 {
+  margin-bottom: 8px;
+}
+
+.info-about-me p {
+  margin: 36px auto 22px;
+  line-height: 150.69%;
+}
+
+.info-about-me .link-to-github {
+  display: flex;
+}
+
+.info-about-me .link-to-github a {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.info-about-me .link-to-github svg {
+  margin-right: 9px;
+}

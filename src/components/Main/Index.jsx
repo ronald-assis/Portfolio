@@ -1,5 +1,5 @@
 import React from 'react';
-import About from '../about/About';
+import About from '../About/Index';
 import './main.css';
 
 function Main() {

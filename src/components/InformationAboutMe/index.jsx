@@ -1,10 +1,10 @@
 import React from 'react';
-// import GitHub from '../images/github.svg'
-import './styles/informationAboutMe.css';
+import Icon from '../../icons/Icon';
+import './informationAboutMe.css';
 
 function InformationAboutMe() {
   return (
-    <div className="infoAbouMe">
+    <div className="info-about-me">
       <div className="titles">
         <h1>Ronald Assis</h1>
         <h2>Desenvolvedor Web</h2>
@@ -15,9 +15,11 @@ function InformationAboutMe() {
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint veritatis voluptatem sed odit repellat fugit id explicabo nobis tempore minima natus, debitis itaque repellendus, qui quasi officiis quidem delectus quod.
         </p>
       </div>
-      <div className="link-to-gitHub">
-        {/* <img src={GitHub} alt="gitHub img" /> */}
-        <a href="https://github.com/ronald-assis" target="_blank" rel="noreferrer">ronald-assis</a>
+      <div className="link-to-github">
+        <a href="https://github.com/ronald-assis" target="_blank" rel="noreferrer">
+          <Icon name="github" />
+          <span>ronald-assis</span>
+        </a>
       </div>
     </div>
   );

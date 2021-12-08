@@ -1,7 +1,7 @@
 import React from 'react';
-import Illustration from './Illustration';
-import InformationAboutMe from './InformationAboutMe';
-import './styles/about.css';
+import Illustration from '../Illustration/Index';
+import InformationAboutMe from '../InformationAboutMe/index';
+import './about.css';
 
 function About() {
   return (
