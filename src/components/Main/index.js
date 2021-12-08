@@ -1,6 +1,6 @@
-import React from 'react';
-import About from '../About/Index';
-import './main.css';
+import React from "react";
+import About from "../About";
+import "./main.css";
 
 function Main() {
   return (
@@ -8,6 +8,6 @@ function Main() {
       <About />
     </main>
   );
-};
+}
 
 export default Main;

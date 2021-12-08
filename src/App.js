@@ -1,7 +1,7 @@
-import React from 'react';
-import Header from './components/Header/Index';
-import Main from './components/Main/Index';
-import './Global.css';
+import React from "react";
+import Header from "./components/Header";
+import Main from "./components/Main";
+import "./Global.css";
 
 function App() {
   return (
