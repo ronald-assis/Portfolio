@@ -1,5 +1,5 @@
 import React from 'react';
-import GitHub from '../images/github.svg'
+// import GitHub from '../images/github.svg'
 import './styles/informationAboutMe.css';
 
 function InformationAboutMe() {
@@ -16,7 +16,7 @@ function InformationAboutMe() {
         </p>
       </div>
       <div className="link-to-gitHub">
-        <img src={GitHub} alt="gitHub img" />
+        {/* <img src={GitHub} alt="gitHub img" /> */}
         <a href="https://github.com/ronald-assis" target="_blank" rel="noreferrer">ronald-assis</a>
       </div>
     </div>

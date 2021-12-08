@@ -1,13 +1,13 @@
 import React from 'react';
-import Logo from './Logo';
-import Navigation from './Navigation';
-import './styles/header.css';
+import Logo from '../Logo/Index';
+import Menu from '../Menu/Index';
+import './header.css';
 
 function Header () {
   return (
     <header>
       <Logo />
-      <Navigation />
+      <Menu />
     </header>
   );
 };

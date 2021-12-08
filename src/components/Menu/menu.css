@@ -4,7 +4,7 @@
 
 .navigation .nav-button {
   display: flex;
-  margin-right: 26pt;
+  margin-right: 26px;
 }
 
 .navigation .contact-link {
@@ -17,6 +17,14 @@
 }
 
 
-.navigation .nav-button a img{
-  margin-right: 4pt;
+.navigation .nav-button a span {
+  margin-left: 4pt;
+}
+
+.navigation .nav-button a span {
+  margin-left: 4pt;
+}
+
+.navigation .nav-button .about-span {
+  margin: 0;
 }

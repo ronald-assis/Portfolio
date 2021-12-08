@@ -1,8 +1,6 @@
 import React from 'react';
-import code from '../images/code.svg';
-import email from '../images/email.svg';
-import person from '../images/person.svg';
-import './styles/navigation.css';
+import Icon from '../../icons/Icon';
+import './menu.css';
 
 function Navigation() {
   return (
@@ -10,20 +8,20 @@ function Navigation() {
       <ul className="navigation">
         <li className="nav-button">
             <a href="/"> 
-              <img src={ person } alt='Person img' />
-              <span>Sobre</span>
+              <Icon name="person" />
+              <span className="about-span">Sobre</span>
             </a>
         </li>
 
         <li className="nav-button">
             <a href="/"> 
-              <img src={ code } alt='Code img' />
+              <Icon name="code" />
               <span>Porjetos</span>
             </a>
         </li>
         <li className="nav-button contact-link">
             <a href="/"> 
-              <img src={ email } alt='Email img' />
+              <Icon name="email" />
               <span>Contato</span>
             </a>
         </li>
