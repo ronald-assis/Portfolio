@@ -7,20 +7,20 @@ function Navigation() {
     <nav>
       <ul className="navigation">
         <li className="nav-button">
-          <a href="/">
+          <a href="#about">
             <Icon name="person" />
             <span className="about-span">Sobre</span>
           </a>
         </li>
 
         <li className="nav-button">
-          <a href="/">
+          <a href="#projects">
             <Icon name="code" />
             <span>Porjetos</span>
           </a>
         </li>
         <li className="nav-button contact-link">
-          <a href="/">
+          <a href="#contact">
             <Icon name="email" />
             <span>Contato</span>
           </a>

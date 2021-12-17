@@ -1,0 +1,21 @@
+#contact {
+  margin-top: 150px;
+}
+
+#contact h1 {
+  margin-bottom: 12px;
+}
+
+#contact p {
+  width: 70%;
+  margin-bottom: 25px;
+}
+
+#contact .contact-link {
+  display: flex;
+  margin-bottom: 206px;
+}
+
+#contact .contact-link a {
+  margin-right: 24px;
+}

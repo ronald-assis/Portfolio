@@ -25,6 +25,12 @@ body {
 a {
   color: var(--white-color);
   text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+a span {
+  margin-left: 4px;
 }
 
 h1 {

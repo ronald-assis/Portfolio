@@ -5,7 +5,7 @@ import "./projects.css";
 
 function Projects() {
   return (
-    <div className="projects">
+    <div id="projects">
       <h1>Projetos</h1>
       {projects.map((project, index) => (
         <div className={`project-${index} project`} key={project.title}>
