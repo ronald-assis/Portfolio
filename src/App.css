@@ -19,22 +19,8 @@ body {
   background-color: var(--backgroud-color);
 }
 
-a {
-  color: var(--white-color);
-  text-decoration: none;
-}
-
-h1 {
-  color: var(--title-color-bluish-green);
-  font-size: 62px;
-}
-
-h2 {
-  color: var(--subtitle-color-light);
-  font-size: 42px;
-}
-
-p {
-  color: var(--white-color);
-  font-size: 18px;
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
 }
