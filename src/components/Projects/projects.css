@@ -22,15 +22,13 @@
   text-align: end;
 }
 
-.projects .project-1,
-.projects .project-3 {
+.projects .left {
   display: flex;
   align-items: center;
   justify-content: start;
 }
 
-.projects .project-1 .info-of-project,
-.projects .project-3 .info-of-project {
+.projects .left .info-of-project {
   display: flex;
   flex-flow: column nowrap;
   align-items: start;
@@ -38,13 +36,11 @@
   order: 1;
 }
 
-.projects .project-0 img,
-.projects .project-2 img {
+.projects .right img {
   margin-left: 24px;
 }
 
-.projects .project-1 img,
-.projects .project-3 img {
+.projects .left img {
   margin-right: 24px;
   order: 0;
 }
@@ -64,24 +60,24 @@
   padding: 6px 12px;
 }
 
-.projects .project .info-of-project .language .React {
+.projects .react {
   background-color: var(--subtitle-color-light);
   color: var(--white-color);
   margin-right: 12px;
 }
 
-.projects .project .info-of-project .language .JavaScript {
+.projects .javascript {
   background-color: var(--javaScript-color);
   color: var(--background-color);
 }
 
-.projects .project .info-of-project .language .NodeJS {
+.projects .nodejs {
   background-color: var(--nodeJS-color);
   color: var(--background-color);
   margin-left: 12px;
 }
 
-.projects .project .info-of-project .language .CSS {
+.projects .css {
   background-color: var(--CSS-color);
   color: var(--white-color);
   margin-left: 12px;
