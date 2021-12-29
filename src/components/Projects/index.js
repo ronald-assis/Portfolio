@@ -1,6 +1,6 @@
 import React from "react";
 import maskGroup from "../images/mask_group.svg";
-import projects from "../../Data";
+import projects from "../../projectsInformations";
 import "./projects.css";
 
 function Projects() {

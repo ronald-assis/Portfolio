@@ -16,7 +16,7 @@ function Navigation() {
         <li className="nav-button">
           <a href="/">
             <Icon name="code" />
-            <span>Porjetos</span>
+            <span>Projetos</span>
           </a>
         </li>
         <li className="nav-button contact-link">
