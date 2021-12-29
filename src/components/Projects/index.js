@@ -1,5 +1,4 @@
 import React from "react";
-import maskGroup from "../images/mask_group.svg";
 import projects from "../../projectsInformations";
 import "./projects.css";
 
@@ -20,7 +19,7 @@ function Projects() {
               ))}
             </div>
           </div>
-          <img src={maskGroup} alt="project log" />
+          <img src={project.image} alt="project log" />
         </div>
       ))}
     </div>
