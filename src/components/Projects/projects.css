@@ -1,0 +1,84 @@
+.projects {
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.projects h1 {
+  text-align: end;
+  margin-bottom: 32px;
+}
+
+.projects .project {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  margin-bottom: 33px;
+}
+
+.projects .project .info-of-project {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: end;
+  text-align: end;
+}
+
+.projects .left {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+.projects .left .info-of-project {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: start;
+  text-align: start;
+  order: 1;
+}
+
+.projects .right img {
+  margin-left: 24px;
+}
+
+.projects .left img {
+  margin-right: 24px;
+  order: 0;
+}
+
+.projects .project .info-of-project p {
+  width: 592px;
+}
+
+.projects .project .info-of-project .language {
+  margin-top: 13px;
+}
+
+.projects .project .info-of-project .language span {
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 6px 12px;
+}
+
+.projects .react {
+  background-color: var(--subtitle-color-light);
+  color: var(--white-color);
+  margin-right: 12px;
+}
+
+.projects .javascript {
+  background-color: var(--javaScript-color);
+  color: var(--background-color);
+}
+
+.projects .nodejs {
+  background-color: var(--nodeJS-color);
+  color: var(--background-color);
+  margin-left: 12px;
+}
+
+.projects .css {
+  background-color: var(--CSS-color);
+  color: var(--white-color);
+  margin-left: 12px;
+}
