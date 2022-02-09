@@ -1,0 +1,17 @@
+.contact {
+  margin-top: 150px;
+  margin-bottom: 206px;
+}
+
+.contact h1 {
+  margin-bottom: 12px;
+}
+
+.contact p {
+  width: 625px;
+  margin-bottom: 25px;
+}
+
+.contact .links {
+  display: flex;
+}

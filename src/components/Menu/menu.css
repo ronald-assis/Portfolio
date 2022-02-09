@@ -2,27 +2,8 @@
   display: flex;
 }
 
-.navigation .nav-button {
-  display: flex;
-  margin-right: 26px;
-}
-
 .navigation .contact-link {
   margin-right: 0;
-}
-
-.navigation .nav-button a{
-  display: flex;
-  align-items: center;
-}
-
-
-.navigation .nav-button a span {
-  margin-left: 4px;
-}
-
-.navigation .nav-button a span {
-  margin-left: 4px;
 }
 
 .navigation .nav-button .about-span {

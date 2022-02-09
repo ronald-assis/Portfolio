@@ -1,5 +1,5 @@
 import React from "react";
-import illustration from "../images/imagem_principal.svg";
+import illustration from "../images/main_image.png";
 
 function Illustration() {
   return (
