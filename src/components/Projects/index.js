@@ -4,7 +4,7 @@ import "./projects.css";
 
 function Projects() {
   return (
-    <div className="projects">
+    <div className="projects" id="projects">
       <h1>Projetos</h1>
       {projects.map((project, index) => (
         <div

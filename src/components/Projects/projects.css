@@ -1,6 +1,7 @@
 .projects {
   display: flex;
   flex-flow: column wrap;
+  scroll-margin-top: 60px;
 }
 
 .projects h1 {

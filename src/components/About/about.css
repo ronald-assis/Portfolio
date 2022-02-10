@@ -1,4 +1,5 @@
 .about {
   display: flex;
   margin-top: 116px;
+  scroll-margin-top: 60px;
 }
