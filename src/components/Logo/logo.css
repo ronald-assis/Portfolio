@@ -1,5 +1,50 @@
+.logo-image {
+  width: 100%;
+}
+
 .logo-image h1 {
   color: var(--white-color);
   font-size: 18px;
+  display: flex;
+  width: 380px;
+}
+
+.logo-image h1 span {
   border-bottom: 5px solid var(--title-color-bluish-green);
+}
+
+.logo-image h1 .r {
+  transition: 0.5s ease-in-out;
+  width: 14px;
+}
+
+.logo-image h1:hover > .r {
+  width: 16%;
+}
+
+.onald {
+  position: absolute;
+  width: 0;
+  margin-left: 11px;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s 0.5s, opacity 0.5s linear;
+}
+
+.logo-image h1:hover > .onald {
+  visibility: visible;
+  opacity: 1;
+  transition: opacity 1s linear;
+}
+
+.logo-image h1 .ssis {
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s 0.5s, opacity 0.5s linear;
+}
+
+.logo-image h1:hover > .ssis {
+  visibility: visible;
+  opacity: 1;
+  transition: opacity 1s linear;
 }
