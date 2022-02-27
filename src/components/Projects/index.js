@@ -8,7 +8,7 @@ function Projects() {
       <h1>Projetos</h1>
       {projects.map((project, index) => (
         <div
-          className={`${index % 2 === 0 ? "right" : "left"} project`}
+          className={`${index % 2 === 0 ? "right" : "left"} project project-${index + 1}`}
           key={project.title}
         >
           <div className="info-of-project">
