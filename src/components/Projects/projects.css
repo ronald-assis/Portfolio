@@ -44,10 +44,12 @@
 }
 
 .projects .right img {
+  background-color: #f2f2f2;
   margin-left: 24px;
 }
 
 .projects .left img {
+  background-color: #f2f2f2;
   margin-right: 24px;
   order: 0;
 }
