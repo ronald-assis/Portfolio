@@ -95,3 +95,9 @@
   color: var(--white-color);
   margin-left: 12px;
 }
+
+.projects .html {
+  background-color: var(--HTML-color);
+  color: var(--white-color);
+  margin-left: 12px;
+}
