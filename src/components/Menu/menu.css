@@ -17,3 +17,13 @@
 .navigation .nav-button .about-span {
   margin: 0;
 }
+
+@media screen and (max-width: 820px) {
+  .navigation a {
+    margin-right: 13px;
+  }
+
+  .navigation a span {
+    display: none;
+  }
+}
