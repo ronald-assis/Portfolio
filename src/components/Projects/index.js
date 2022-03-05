@@ -7,9 +7,11 @@ function Projects() {
     <div className="projects" id="projects">
       <h1>Projetos</h1>
       {projects.map((project, index) => (
-        <div
+        <a
+          href={project.repository}
+          target="_blank"
           className={`${index % 2 === 0 ? "right" : "left"} project project-${index + 1}`}
-          key={project.title}
+          key={project.title} rel="noreferrer"
         >
           <div className="info-of-project">
             <h2>{project.title}</h2>
@@ -23,7 +25,7 @@ function Projects() {
             </div>
           </div>
           <img src={project.image} alt="project log" />
-        </div>
+        </a>
       ))}
     </div>
   );
