@@ -2,3 +2,9 @@ main {
   width: 66%;
   margin: auto;
 }
+
+@media screen and (max-width: 820px) {
+  main {
+    width: 92%;
+  }
+}

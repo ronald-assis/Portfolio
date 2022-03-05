@@ -1,5 +1,6 @@
 import React from "react";
 import illustration from "../images/main_image.png";
+import './Illustration.css';
 
 function Illustration() {
   return (
