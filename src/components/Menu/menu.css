@@ -2,6 +2,14 @@
   display: flex;
 }
 
+.navigation a:hover {
+  color: var(--title-color-bluish-green);
+}
+
+.navigation a:hover svg path {
+  fill: var(--title-color-bluish-green);
+}
+
 .navigation .contact-link {
   margin-right: 0;
 }
