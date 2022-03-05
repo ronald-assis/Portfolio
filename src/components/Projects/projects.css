@@ -16,6 +16,11 @@
   margin-bottom: 33px;
 }
 
+.projects .project:hover {
+  transform: scale(1.1);
+  transition: 0.3s ease-in-out;
+}
+
 .projects img {
   border-radius: 50%;
   width: 170px;
@@ -81,12 +86,12 @@
 
 .projects .javascript {
   background-color: var(--javaScript-color);
-  color: var(--background-color);
+  color: black;
 }
 
 .projects .nodejs {
   background-color: var(--nodeJS-color);
-  color: var(--background-color);
+  color: #303030;
   margin-left: 12px;
 }
 
