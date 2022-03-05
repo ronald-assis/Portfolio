@@ -12,7 +12,7 @@
 .projects .project {
   display: flex;
   align-items: center;
-  justify-content: end;
+  justify-content: flex-end;
   margin-bottom: 33px;
 }
 
@@ -30,20 +30,20 @@
 .projects .project .info-of-project {
   display: flex;
   flex-flow: column nowrap;
-  align-items: end;
+  align-items: flex-end;
   text-align: end;
 }
 
 .projects .left {
   display: flex;
   align-items: center;
-  justify-content: start;
+  justify-content: flex-start;
 }
 
 .projects .left .info-of-project {
   display: flex;
   flex-flow: column nowrap;
-  align-items: start;
+  align-items: flex-start;
   text-align: start;
   order: 1;
 }
