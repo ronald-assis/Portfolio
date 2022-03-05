@@ -50,6 +50,9 @@
 }
 
 @media screen and (max-width: 820px) {
+  .logo-image h1 {
+    width: 100%;
+  }
   .logo-image h1 .r {
     width: 15px;
   }

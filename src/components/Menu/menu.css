@@ -18,7 +18,7 @@
   margin: 0;
 }
 
-@media screen and (max-width: 820px) {
+@media screen and (max-width: 767px) {
   .navigation a span {
     display: none;
   }
