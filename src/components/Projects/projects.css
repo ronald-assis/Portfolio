@@ -16,6 +16,12 @@
   margin-bottom: 33px;
 }
 
+.projects img {
+  border-radius: 50%;
+  width: 170px;
+  height: 170px;
+}
+
 .projects .project .info-of-project {
   display: flex;
   flex-flow: column nowrap;
@@ -38,12 +44,18 @@
 }
 
 .projects .right img {
+  background-color: #f2f2f2;
   margin-left: 24px;
 }
 
 .projects .left img {
+  background-color: #f2f2f2;
   margin-right: 24px;
   order: 0;
+}
+
+.projects .project-2 img {
+  background-color: #023031;
 }
 
 .projects .project .info-of-project p {
@@ -80,6 +92,12 @@
 
 .projects .css {
   background-color: var(--CSS-color);
+  color: var(--white-color);
+  margin-left: 12px;
+}
+
+.projects .html {
+  background-color: var(--HTML-color);
   color: var(--white-color);
   margin-left: 12px;
 }
