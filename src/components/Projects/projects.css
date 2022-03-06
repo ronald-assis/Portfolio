@@ -4,6 +4,10 @@
   scroll-margin-top: 60px;
 }
 
+.projects a {
+  margin-right: 0;
+}
+
 .projects h1 {
   text-align: end;
   margin-bottom: 32px;

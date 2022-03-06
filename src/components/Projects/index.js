@@ -1,6 +1,7 @@
 import React from "react";
 import projects from "../../projectsInformations";
 import "./projects.css";
+import "./projectsMobile.css";
 
 function Projects() {
   return (

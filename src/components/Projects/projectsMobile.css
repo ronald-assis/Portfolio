@@ -1,0 +1,57 @@
+@media screen and (max-width: 767px) {
+  .projects {
+    scroll-margin-top: 35px;
+  }
+
+  .projects a {
+    margin-right: 0;
+  }
+
+  .projects h1 {
+    text-align: center;
+    margin: 40px auto 18px;
+  }
+
+  .projects .project {
+    flex-flow: column-reverse;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 70px;
+  }
+
+  .projects .project .info-of-project {
+    align-items: normal;
+  }
+
+  .projects .left .info-of-project h2 {
+    text-align: start;
+  }
+
+  .projects .project .info-of-project p {
+    width: 100%;
+    margin: auto;
+    text-align: justify;
+  }
+
+  .projects .project img {
+    border-radius: 1px;
+    width: 100%;
+    margin: auto;
+    height: 89px;
+  }
+
+  .projects .left img {
+    order: 1;
+  }
+
+  .projects .project .info-of-project .language {
+    text-align: center;
+  }
+
+  .projects .project .info-of-project .language span {
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 3px 6px;
+  }
+}
