@@ -23,7 +23,7 @@ function Contact() {
         </a>
         <a href="mailto:webmaster@example.com" target="_blank" rel="noreferrer">
           <Icon name="email" />
-          <span>ronaldaassis71@gmail.com</span>
+          <span>ronaldassis71@gmail.com</span>
         </a>
         <a
           href="https://www.linkedin.com/in/ronald-assis/"

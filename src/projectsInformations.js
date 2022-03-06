@@ -23,7 +23,7 @@ const projects = [
     title: "Book synopsis",
     info: "Um projeto onde Login e acesso de Usuário já registrado, ao fazer o login o app faz uma requisição API que retorna uma listagem de livros, e ao cliclar no livro escolhido mostra os detalhes e a sinopse.",
     image: coverImage,
-    languages: ["React", "CSS"],
+    languages: ["React","JavaScript", "CSS"],
     repository: "https://github.com/ronald-assis/Challenge-books-front-end",
   },
   {
