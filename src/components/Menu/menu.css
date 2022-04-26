@@ -17,3 +17,9 @@
 .navigation .nav-button .about-span {
   margin: 0;
 }
+
+@media screen and (max-width: 767px) {
+  .navigation a span {
+    display: none;
+  }
+}

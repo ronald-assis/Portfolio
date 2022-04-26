@@ -16,3 +16,24 @@
 .contact .links {
   display: flex;
 }
+
+@media screen and (max-width: 767px) {
+  .contact {
+    margin: 0 0 106px;
+  }
+  .contact h1 {
+    text-align: center;
+  }
+  .contact p {
+    width: 100%;
+    text-align: justify;
+  }
+
+  .contact .links {
+    flex-direction: column;
+  }
+
+  .contact .links a {
+    margin: 5px 0;
+  }
+}

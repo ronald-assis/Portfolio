@@ -54,3 +54,39 @@ p {
   font-size: 18px;
   line-height: 150.69%;
 }
+
+@media screen and (max-width: 767px) {
+  a {
+    margin-right: 13px;
+  }
+
+  h1 {
+    font-size: 31px;
+  }
+
+  h2 {
+    font-size: 21px;
+  }
+
+  p {
+    font-size: 13px;
+  }
+}
+
+@media screen and (min-width: 767px) and (max-width: 820px) {
+  a {
+    margin-right: 13px;
+  }
+
+  h1 {
+    font-size: 38px;
+  }
+
+  h2 {
+    font-size: 28px;
+  }
+
+  p {
+    font-size: 15px;
+  }
+}

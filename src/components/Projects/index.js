@@ -1,6 +1,7 @@
 import React from "react";
 import projects from "../../projectsInformations";
 import "./projects.css";
+import "./projectsMobile.css";
 
 function Projects() {
   return (
@@ -24,7 +25,9 @@ function Projects() {
               ))}
             </div>
           </div>
-          <img src={project.image} alt="project log" />
+          <div className="image-of-project">
+            <img src={project.image} alt="project log" />
+          </div>
         </a>
       ))}
     </div>

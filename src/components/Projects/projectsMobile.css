@@ -1,0 +1,65 @@
+@media screen and (max-width: 767px) {
+  .projects {
+    scroll-margin-top: 35px;
+  }
+
+  .projects a {
+    margin-right: 0;
+  }
+
+  .projects h1 {
+    text-align: center;
+    margin: 40px auto 18px;
+  }
+
+  .projects .project {
+    flex-flow: column-reverse;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 70px;
+  }
+
+  .projects .project .info-of-project {
+    align-items: normal;
+  }
+
+  .projects .left .info-of-project h2 {
+    text-align: start;
+  }
+
+  .projects .project .info-of-project p {
+    width: 100%;
+    margin: auto;
+    text-align: justify;
+  }
+
+  .projects .project .image-of-project{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start
+  }
+
+  .projects .left .image-of-project{
+    justify-content: flex-end;
+    order: 1;
+  }
+
+  .projects .project .image-of-project img {
+    border-radius: 50%;
+    width: 121px;
+    height: 110px;
+    margin: 0;
+  }
+
+  .projects .project .info-of-project .language {
+    text-align: center;
+  }
+
+  .projects .project .info-of-project .language span {
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 3px 6px;
+  }
+}
