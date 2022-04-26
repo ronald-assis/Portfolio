@@ -33,15 +33,23 @@
     text-align: justify;
   }
 
-  .projects .project img {
-    border-radius: 1px;
+  .projects .project .image-of-project{
     width: 100%;
-    margin: auto;
-    height: 89px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start
   }
 
-  .projects .left img {
+  .projects .left .image-of-project{
+    justify-content: flex-end;
     order: 1;
+  }
+
+  .projects .project .image-of-project img {
+    border-radius: 50%;
+    width: 121px;
+    height: 110px;
+    margin: 0;
   }
 
   .projects .project .info-of-project .language {

@@ -25,7 +25,9 @@ function Projects() {
               ))}
             </div>
           </div>
-          <img src={project.image} alt="project log" />
+          <div className="image-of-project">
+            <img src={project.image} alt="project log" />
+          </div>
         </a>
       ))}
     </div>

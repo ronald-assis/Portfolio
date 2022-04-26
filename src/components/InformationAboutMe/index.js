@@ -20,12 +20,12 @@ function InformationAboutMe() {
       </div>
       <div className="link-to-github">
         <a
-          href="https://github.com/ronald-assis/Portfolio"
+          href="https://github.com/ronald-assis"
           target="_blank"
           rel="noreferrer"
         >
           <Icon name="github" />
-          <span>potifolio</span>
+          <span>Github</span>
         </a>
       </div>
     </div>
